@@ -1,6 +1,6 @@
 {
   "name": "elysia-line",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "KrataiB <krataib.dev@gmail.com>",
   "repository": {
     "type": "git",
@@ -33,7 +33,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "bun build src/index.ts --outdir dist --target bun",
+    "build:types": "tsc",
+    "build:js": "bun build src/index.ts --outdir dist --target bun",
+    "build": "rm -rf dist && bun run build:types && bun run build:js",
     "prepublishOnly": "bun run build"
   },
   "types": "dist/index.d.ts",
