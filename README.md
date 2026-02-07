@@ -1,6 +1,6 @@
 # elysia-line
 
-Official LINE Messaging API webhook plugin for Elysia — clean, typed, zero-config.
+UnOfficial LINE Messaging API webhook plugin for Elysia — clean, typed, zero-config.
 
 This plugin for ElysiaJS simplifies the process of creating LINE bots by providing a clean, typed, and zero-config integration with the official LINE bot SDK.
 
