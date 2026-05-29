@@ -40,6 +40,6 @@
   },
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@line/bot-sdk": "^10.5.0"
+    "@line/bot-sdk": "^11.0.1"
   }
 }
